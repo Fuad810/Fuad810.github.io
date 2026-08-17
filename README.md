@@ -1,6 +1,14 @@
-# Fuad Emon — Portfolio
+# Md Fuad Mahamud Emon — Embedded Systems Engineer
 
-Personal portfolio for **Md Fuad Mahamud Emon**, Embedded Systems Engineer.
+## 🌐 Live Portfolio
+
+**https://fuad810.github.io/**
+
+Copy the link above and paste it into any browser to open the portfolio.
+
+## Repository
+
+**https://github.com/Fuad810/Fuad810.github.io**
 
 ## Focus
 - STM32 firmware and peripheral integration
@@ -10,11 +18,16 @@ Personal portfolio for **Md Fuad Mahamud Emon**, Embedded Systems Engineer.
 - RPMsg / remoteproc
 - Hardware bring-up and signal debugging
 - PCB and biomedical electronics
+- Industrial IoT and electrical power systems
 
-## Run locally
-Open `index.html` in a browser.
+## Profile photo
+
+Add your professional photo to the repository root with the filename:
+
+`profile.jpg`
+
+The portfolio is prepared to use that image in the profile section.
 
 ## GitHub Pages
-This is a static site and can be deployed directly with GitHub Pages from the repository root.
 
-> Replace the LinkedIn placeholder in `index.html` with the user's actual LinkedIn URL before publishing.
+The site is a static HTML/CSS/JavaScript portfolio deployed from the `main` branch.
