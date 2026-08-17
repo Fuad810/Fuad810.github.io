@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Md Fuad Mahamud Emon — Embedded Systems Engineer specializing in STM32, ECG acquisition, Linux and firmware development.">
+  <title>Fuad Emon | Embedded Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">FE<span>.</span></a>
+    <nav><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <a class="nav-btn" href="#contact">Let's talk</a>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">EMBEDDED SYSTEMS • FIRMWARE • HARDWARE</p>
+        <h1>I build systems that connect <span>hardware to real data.</span></h1>
+        <p class="lead">Embedded Systems Engineer working across STM32 firmware, biomedical data acquisition, Linux-based embedded systems and hardware bring-up.</p>
+        <div class="hero-actions"><a class="btn primary" href="#work">View selected work</a><a class="btn ghost" href="mailto:mahmudfuad114@gmail.com">Email me</a></div>
+      </div>
+      <div class="terminal"><div class="terminal-bar"><i></i><i></i><i></i><span>fuad@embedded:~</span></div><pre><code><span class="muted">$</span> whoami
+<span class="accent">Md Fuad Mahamud Emon</span>
+
+<span class="muted">$</span> focus
+STM32 / C / SPI / Linux
+ECG acquisition / embedded hardware
+Cortex-A7 + Cortex-M4 / RPMsg
+
+<span class="muted">$</span> current_status
+<span class="ok">● building real hardware</span></code></pre></div>
+    </section>
+    <section class="metrics"><div><strong>8</strong><span>ECG channels</span></div><div><strong>24-bit</strong><span>ADC data path</span></div><div><strong>STM32</strong><span>Firmware &amp; bring-up</span></div><div><strong>Linux</strong><span>Embedded systems</span></div></section>
+    <section id="work" class="section"><div class="section-head"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects with actual hardware behind them.</h2></div><p>Not just demos—projects involving interfaces, timing, acquisition, debugging and system integration.</p></div>
+      <div class="projects">
+        <article class="project featured"><div class="project-top"><span class="tag">MEDICAL ELECTRONICS</span><span class="mono">01</span></div><h3>8-Channel ECG Data Acquisition</h3><p>Built an ECG acquisition path around the TI ADS1298, interfacing it with STM32 firmware and transferring acquired multi-channel data to an STM32MP157-based Linux system for waveform visualization.</p><div class="stack"><span>ADS1298</span><span>STM32F334R8</span><span>SPI</span><span>DRDY/EXTI</span><span>STM32MP1</span><span>Linux</span></div></article>
+        <article class="project"><div class="project-top"><span class="tag">EMBEDDED LINUX</span><span class="mono">02</span></div><h3>STM32MP157F-DK2 Platform</h3><p>Worked across the Cortex-A7 Linux side and Cortex-M4 real-time side, including remoteproc/RPMsg communication, device interfaces and low-level debugging.</p><div class="stack"><span>OpenSTLinux</span><span>Yocto</span><span>RPMsg</span><span>remoteproc</span><span>Cortex-A7</span><span>Cortex-M4</span></div></article>
+        <article class="project"><div class="project-top"><span class="tag">EDGE / AI HARDWARE</span><span class="mono">03</span></div><h3>CanMV K230 Bring-Up</h3><p>Explored the Kendryte K230 platform, including Linux + RT-Smart environments, SDK compilation, display bring-up and board-level troubleshooting.</p><div class="stack"><span>K230</span><span>RT-Smart</span><span>Linux</span><span>SDK</span><span>Wi-Fi</span></div></article>
+        <article class="project"><div class="project-top"><span class="tag">POWER / MEDICAL</span><span class="mono">04</span></div><h3>Oxygen Concentrator Research</h3><p>Investigated PSA oxygen generation, zeolite selection and system efficiency, including practical evaluation of molecular sieve materials and process constraints.</p><div class="stack"><span>PSA</span><span>Zeolite</span><span>Gas separation</span><span>System optimization</span></div></article>
+      </div>
+    </section>
+    <section id="skills" class="section split"><div><p class="eyebrow">ENGINEERING TOOLKIT</p><h2>Hardware-first, software-capable.</h2><p class="body-copy">My work sits at the boundary between electronics and software: reading datasheets, bringing up peripherals, validating signals with instruments, writing firmware, then moving the data into a larger embedded system.</p></div><div class="skill-grid"><div><h4>Firmware</h4><p>C · STM32 HAL/LL · STM32CubeMX · Interrupts · Timers · DMA · UART · SPI</p></div><div><h4>Embedded Linux</h4><p>Linux · OpenSTLinux · Yocto · remoteproc · RPMsg · shell debugging</p></div><div><h4>Hardware</h4><p>ECG front ends · ADCs · PCB bring-up · signal validation · oscilloscopes · logic analyzers</p></div><div><h4>Platforms</h4><p>STM32F3 · STM32MP1 · ADS1298 · Kendryte K230 · ESP32</p></div></div></section>
+    <section id="experience" class="section"><p class="eyebrow">EXPERIENCE &amp; EDUCATION</p><div class="timeline"><div class="timeline-item"><div class="date">PROFESSIONAL</div><div><h3>Junior Embedded Systems Engineer — Jence</h3><p>Embedded firmware development, hardware/software integration and debugging. Recent work includes ADS1298 ECG data acquisition and STM32MP1 integration.</p></div></div><div class="timeline-item"><div class="date">EDUCATION</div><div><h3>BSc in Electrical &amp; Electronic Engineering</h3><p>North South University (NSU), Bangladesh.</p></div></div></div></section>
+    <section id="about" class="section about"><div><p class="eyebrow">ABOUT</p><h2>I like the part where the datasheet meets the oscilloscope.</h2></div><p class="body-copy">I’m an Electrical &amp; Electronic Engineering graduate focused on embedded systems. I enjoy the difficult middle ground between hardware and software—where a peripheral doesn't respond, timing matters, a waveform needs to be verified, or a Linux system has to communicate reliably with a microcontroller. My goal is to keep building systems that are technically solid and useful in the real world.</p></section>
+    <section id="contact" class="contact"><p class="eyebrow">CONTACT</p><h2>Have an embedded problem worth solving?</h2><p>I'm open to embedded systems, firmware and hardware/software integration opportunities.</p><div class="contact-links"><a class="btn primary" href="mailto:mahmudfuad114@gmail.com">mahmudfuad114@gmail.com</a><a class="btn ghost" href="https://github.com/Fuad810" target="_blank" rel="noopener">GitHub ↗</a><a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a></div></section>
+  </main>
+  <footer><span>© 2026 Md Fuad Mahamud Emon</span><span class="mono">built with HTML / CSS</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
